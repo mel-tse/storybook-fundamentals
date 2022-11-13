@@ -2,7 +2,15 @@ import "../../src/assets/tailwind.css";
 import { addParameters, addDecorator } from "@storybook/vue";
 import { withA11Y } from "@storybook/addon-a11y";
 
+
+
 addDecorator(withA11Y);
+
+
+
+
+
+
 
 addParameters({
   options: {
